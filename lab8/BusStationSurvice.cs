@@ -12,7 +12,7 @@ namespace BusStation.Services
     {
         private const string FilePath = "bus_schedule.dat";
 
-        // 1. Чтение базы данных из бинарного файла
+        
         public static List<BusRoute> LoadData()
         {
             List<BusRoute> routes = new List<BusRoute>();
